@@ -1,11 +1,5 @@
 #pragma once
 #define SimpleGraph simplegraph_temp //Hack to redefine SimpleGraph using QT libraries
-// Bugfix: Disable C++11 feature macros on Mac/libstdc++ to fool Qt into not using C++11 headers
-#ifdef __APPLE__
-#undef __cplusplus
-#define __cplusplus 200303L
-#undef __GXX_EXPERIMENTAL_CXX0X__
-#endif
 
 /*************************************************************************
  * File: SimpleGraph.h
@@ -19,6 +13,7 @@
 #include <cstddef>
 #include <QObject>
 #include <QWidget>
+#include <QMetaType>
 #include <QTime>
 
 /**

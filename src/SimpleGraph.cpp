@@ -1,10 +1,4 @@
 #include <iostream>
-// Bugfix: Disable C++11 feature macros on Mac/libstdc++ to fool Qt into not using C++11 headers
-#ifdef __APPLE__
-#undef __cplusplus
-#define __cplusplus 200303L
-#undef __GXX_EXPERIMENTAL_CXX0X__
-#endif
 
 #include <QtGui>
 #include <QWidget>
@@ -60,7 +54,6 @@ void MyWidget::paintEvent(QPaintEvent *event) {
             painter.drawEllipse(n.x - 5, n.y - 5, 10, 10);
         }
     }
-    //last_run = QTime::currentTime();
     semaphore.release();
 }
 
