@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.2, 2020-08-07T11:11:49. -->
+<!-- Written by QtCreator 4.12.2, 2020-08-07T18:20:24. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -306,8 +306,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/angel/Documents/EMC/_LIBROS/CS106L_STANFORD/ASIGNACIONES/_0_Graphviz/ejemplos/stanford-cs106l-master/GraphViz/GraphViz.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/angel/Documents/EMC/_LIBROS/CS106L_STANFORD/ASIGNACIONES/_0_Graphviz/ejemplos/stanford-cs106l-master/GraphViz/GraphViz.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">GraphViz2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/angel/Documents/EMC/_LIBROS/CS106L_STANFORD/ASIGNACIONES/_0_Graphviz/GraphViz/GraphViz.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/angel/Documents/EMC/_LIBROS/CS106L_STANFORD/ASIGNACIONES/_0_Graphviz/GraphViz/GraphViz.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
